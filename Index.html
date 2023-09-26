@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritam's Portfolio Website</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+</head>
+
+<body>
+    <header>
+        <nav class="N1">
+            <div  class="left">
+                Ritam's <span class="HeadName">Portfolio.</span>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <script class="banner"></script>
+    <main>
+        <section class="firstSection" id="home">
+            <div class="hleft">
+                 Hi, I'm  <span class="name"><b>Ritam Chondar.</b></span><br>
+                <b>I am a passionate</b> <br>
+                <b> <span id="element"></span></b>
+            </div>
+            <div class="hright">
+                <img src="Img/1st.png" alt="">
+            </div>
+        </section>
+        
+        <section class="secondSection">
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="Img/Profile.jpg" alt="">
+                        </div>
+                        <div class="about-col-2">
+                            <h1 class="subtitle">About Me</h1>
+                            <p>Electrical Engineering student at Netaji Subhash Engineering College 
+                                with proficiency in Java, Object Oriented Programming, Data Structure, HTML, CSS, and JavaScript. Eager to apply 
+                                technical skills in innovative projects and contribute to cutting-edge solutions</p>
+
+                                <div class="tab-titles">
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                                </div>
+                                <div class="tab-con active-tab" id="skills">
+                                    <ul>
+                                        <li><span>Programming</span> <br>Core Java, JavaScript, Data Structure, <br>Object Oriented Programming. </li>
+                                        <li><span>Web Devlopement</span><br>HTML, CSS.</li>
+                                    </ul>
+                                </div>
+                                <div class="tab-con" id="experience">
+                                    <ul>
+                                        <li><span>Dec, 2022 - Jan, 2023, Jindal India Pvt. Ltd.</span> <br>Acquired in-depth knowledge of maintenance procedures for cutting-edge equipment in the pipe mill.</li>
+                                        
+                                    </ul>
+                                </div>
+                                <div class="tab-con" id="education">
+                                    <ul>
+                                        <li><span>2020 - Current</span> <br>B.Tech in Electrical Engineering At Netaji Subhash Engineering College. </li>
+                                        <li><span>2019</span><br>12th from Rashpur High School with 67%.</li>
+                                        <li><span>2017</span><br>12th from Bagua High School with 80%.</li>
+                                    </ul>
+                                </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="thiredSection">
+            <div id="projects">
+                <div class="con">
+                    <h1 class="subtitle">My Projects</h1>
+                    <div class="work-list">
+                        <div class="work" id="p1">
+                            <img src="Img/Work1.jpg">
+                            <div class="layer">
+                                <h3>Ecommerce Website</h3>
+                                <p>In this webshit you can login and purchase clothes.
+                                 This webshite is made using HTML, CSS, JAVASCRIPT.</p>
+                                 
+                                 
+                            </div>
+                        </div>
+                        <div class="work" >
+                            
+                            <img src="Img/Work2.jpg">
+                            <div class="layer">
+                                <h3>Portfolio Website</h3>
+                                <p>In this website you can connect me and see my work.
+                                 This webshite is made using HTML, CSS, JAVASCRIPT.</p>
+                                 <a href="#"><i class="fas fa-regular fa-arrow-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="Img/Work3.jpg">
+                            <div class="layer">
+                                <h3>Connect 4</h3>
+                                <p>This is a desktop game application using Java</p>
+                                 <a href="#"><i class="fas fa-solid fa-up-right-from-square"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------------------------Contact--------------------------------->
+        <div id="contact">
+            <div class="con">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Contact Me</h1>
+                        <p><i class="fas fa-regular fa-paper-plane"></i>rchondar@gmail.com</p>
+                        <p><i class="fas fa-solid fa-phone"></i>+91-9800533054</p>
+                        <div class="socal-icon">
+                            <a href="https://www.linkedin.com/in/ritam-chondar"><i class="fab fa-linkedin"></i></a>
+                            <a href=""><i class="fab fa-github" aria-hidden="true"></i></a>
+                        </div>
+                        <a href="" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your E-mail" required>
+                            <textarea name="Massage" rows="6" placeholder="Your Massage"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="F1" id="Footer1">
+
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js">
+
+    </script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Frontend Developer.', 'Java Programmer.'],
+            typeSpeed: 80,
+        });
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcons=document.getElementsByClassName("tab-con");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcon of tabcons){
+                tabcon.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+</body>
+
+</html>
